@@ -27,7 +27,7 @@ I que esta donant servei ```systemctl status mysql```<br>
 ## Securitzar
 Ara toca securitzar la instal·lacio de mysql<br>
 En el moment en el que instal·lem el MySQL, ens genera una contrasenya i la guarda en un fitxer.<br>
-Aquest fitxer el podem trobar amb ```grep 'temporary password' /var/log/mysqld.log``<br>
+Aquest fitxer el podem trobar amb ```grep 'temporary password' /var/log/mysqld.log```<br>
 Una vegada coneixem aquesta password, començem amb el proces de securitzacio.<br>
 ![securitzacio](https://i.imgur.com/Sdrn8rO.png)<br><br>
 
