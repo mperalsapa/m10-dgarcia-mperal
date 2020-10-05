@@ -21,6 +21,7 @@ Executem ```sudo yum install percona-server-server``` per instal·lar.
 Comprovem que el servei esta funcionant
 ![status percona](https://i.imgur.com/CqukLNy.png)<br>
 Comprovem que es pot accedir al mysql
+![accedit al mysql](https://i.imgur.com/0JZ38fC.png)
 
 # MySQL
 ## Instal·lar repositori MySQL
