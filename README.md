@@ -30,6 +30,7 @@ En el moment en el que instal·lem el MySQL, ens genera una contrasenya i la gua
 Aquest fitxer el podem trobar amb ```grep 'temporary password' /var/log/mysqld.log```<br>
 Una vegada coneixem aquesta password, començem amb el proces de securitzacio amb ```mysql_secure_installation```<br>
 ![securitzacio](https://i.imgur.com/Sdrn8rO.png)<br><br>
+![securitzacio segona part](https://i.imgur.com/jPNA19Q.png)<br>
 
 
 P@t@t@m10
