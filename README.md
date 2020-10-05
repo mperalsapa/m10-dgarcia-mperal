@@ -12,3 +12,10 @@ _You **can** combine them_
 
 https://guides.github.com/features/mastering-markdown/
 https://www.percona.com/doc/percona-server/LATEST/installation/yum_repo.html
+
+# Securitzar Instal·lacio
+Canviem la contrasenya
+'''sudo passwd root'''
+Actualitzem el OS
+sudo yum check-update
+sudo yum update
