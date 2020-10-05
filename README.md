@@ -17,5 +17,5 @@ https://www.percona.com/doc/percona-server/LATEST/installation/yum_repo.html
 Canviem la contrasenya
 ```sudo passwd root```
 Actualitzem el OS
-sudo yum check-update
-sudo yum update
+```sudo yum check-update```
+```sudo yum update``` <br>
