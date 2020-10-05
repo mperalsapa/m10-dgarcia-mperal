@@ -1,19 +1,10 @@
 # m10-dgarcia-mperal
-practiques m10
-
-# New Document
-*This text will be italic*
-_This will also be italic_
-
-**This text will be bold**
-__Thbold__
-
-_You **can** combine them_
+Pràctiques m10
 
 https://guides.github.com/features/mastering-markdown/
 https://www.percona.com/doc/percona-server/LATEST/installation/yum_repo.html
 
-# Securitzar Instal·lacio
+# Securitzar Instal·lació
 Canviem la contrasenya
 ```sudo passwd root```<br>
 Actualitzem el OS
