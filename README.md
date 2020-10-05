@@ -19,4 +19,6 @@ Verifiquem que s’ha afegit correctament <br>```yum repolist enabled | grep "my
 ## Instal·lar MySQL
 Instal·lar
 <br>```yum install mysql-community-server```<br>
-![Image of Yaktocat](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/Captura%20de%20pantalla%202020-10-05%20174927.png)
+![Instal·lant](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/Captura%20de%20pantalla%202020-10-05%20174927.png)
+Comprovem la versio instal·lada<br>
+![Comprovacio](https://i.imgur.com/bnqtVen.png)
