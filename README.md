@@ -43,7 +43,7 @@ Comprovem la versio instal·lada ```mysql --version```<br>
 I que esta donant servei ```systemctl status mysql```<br>
 ![Status de MySQL](https://i.imgur.com/fd40eUe.png)<br><br>
 ## Securitzar
-
+[Securitzar](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/README.md#securitzar) la instal·lacio MySQL
 
 ## Comprovar access
 Accedim al servei per comprvar que funciona correctament.<br>
