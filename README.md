@@ -45,7 +45,11 @@ I que esta donant servei ```systemctl status mysql```<br>
 ## Securitzar
 [Securitzar](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/README.md#securitzar) la instal·lacio MySQL
 
-## Comprovar access
+## Comprovacions
 Accedim al servei per comprvar que funciona correctament.<br>
 ![Comprovacio access mysql](https://i.imgur.com/wGJPvDx.png)<br>
+Comprovem la versio instal·lada ```mysql --version```<br>
+![Comprovacio](https://i.imgur.com/bnqtVen.png)<br>
+I que esta donant servei ```systemctl status mysql```<br>
+![Status de MySQL](https://i.imgur.com/fd40eUe.png)<br><br>
 P@t@t@m10
