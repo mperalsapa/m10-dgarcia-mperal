@@ -33,7 +33,8 @@ Una vegada coneixem aquesta password, començem amb el proces de securitzacio am
 ![securitzacio segona part](https://i.imgur.com/jPNA19Q.png)<br>
 
 ## Comprovar access
-![Comprovacio access mysql](https://i.imgur.com/wGJPvDx.png)
-
-
+Accedim al servei per comprvar que funciona correctament.<br>
+![Comprovacio access mysql](https://i.imgur.com/wGJPvDx.png)<br>
 P@t@t@m10
+
+## Instal·lar mysql
