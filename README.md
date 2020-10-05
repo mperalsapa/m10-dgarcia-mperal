@@ -38,10 +38,7 @@ Verifiquem que s’ha afegit correctament <br>```yum repolist enabled | grep "my
 Instal·lar
 <br>```yum install mysql-community-server```<br>
 ![Instal·lant](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/Captura%20de%20pantalla%202020-10-05%20174927.png)
-Comprovem la versio instal·lada ```mysql --version```<br>
-![Comprovacio](https://i.imgur.com/bnqtVen.png)<br>
-I que esta donant servei ```systemctl status mysql```<br>
-![Status de MySQL](https://i.imgur.com/fd40eUe.png)<br><br>
+
 ## Securitzar
 [Securitzar](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/README.md#securitzar) la instal·lacio MySQL
 
