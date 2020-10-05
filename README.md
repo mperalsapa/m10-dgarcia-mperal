@@ -32,5 +32,8 @@ Una vegada coneixem aquesta password, començem amb el proces de securitzacio am
 ![securitzacio](https://i.imgur.com/Sdrn8rO.png)<br>
 ![securitzacio segona part](https://i.imgur.com/jPNA19Q.png)<br>
 
+## Comprovar access
+![Comprovacio access mysql](https://i.imgur.com/wGJPvDx.png)
+
 
 P@t@t@m10
