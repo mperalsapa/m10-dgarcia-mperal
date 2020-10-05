@@ -2,7 +2,6 @@
 Pràctiques m10
 
 https://guides.github.com/features/mastering-markdown/
-https://www.percona.com/doc/percona-server/LATEST/installation/yum_repo.html
 
 # Securitzar Instal·lació
 Canviem la contrasenya
@@ -22,6 +21,13 @@ Comprovem que el servei esta funcionant
 ![status percona](https://i.imgur.com/CqukLNy.png)<br>
 Comprovem que es pot accedir al mysql
 ![accedit al mysql](https://i.imgur.com/0JZ38fC.png)
+## Securitzar
+Ara toca securitzar la instal·lacio de mysql<br>
+En el moment en el que instal·lem el MySQL, ens genera una contrasenya i la guarda en un fitxer.<br>
+Aquest fitxer el podem trobar amb ```grep 'temporary password' /var/log/mysqld.log```<br>
+Una vegada coneixem aquesta password, començem amb el proces de securitzacio amb ```mysql_secure_installation```<br>
+![securitzacio](https://i.imgur.com/Sdrn8rO.png)<br>
+![securitzacio segona part](https://i.imgur.com/jPNA19Q.png)<br>
 
 # MySQL
 ## Instal·lar repositori MySQL
@@ -37,12 +43,7 @@ Comprovem la versio instal·lada ```mysql --version```<br>
 I que esta donant servei ```systemctl status mysql```<br>
 ![Status de MySQL](https://i.imgur.com/fd40eUe.png)<br><br>
 ## Securitzar
-Ara toca securitzar la instal·lacio de mysql<br>
-En el moment en el que instal·lem el MySQL, ens genera una contrasenya i la guarda en un fitxer.<br>
-Aquest fitxer el podem trobar amb ```grep 'temporary password' /var/log/mysqld.log```<br>
-Una vegada coneixem aquesta password, començem amb el proces de securitzacio amb ```mysql_secure_installation```<br>
-![securitzacio](https://i.imgur.com/Sdrn8rO.png)<br>
-![securitzacio segona part](https://i.imgur.com/jPNA19Q.png)<br>
+
 
 ## Comprovar access
 Accedim al servei per comprvar que funciona correctament.<br>
