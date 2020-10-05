@@ -6,7 +6,7 @@ practiques m10
 _This will also be italic_
 
 **This text will be bold**
-__This will also be bold__
+__Thbold__
 
 _You **can** combine them_
 
