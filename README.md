@@ -27,5 +27,5 @@ Instal·lar el repositori <br>```yum localinstall mysql80-community-release-el7-
 Verifiquem que s’ha afegit correctament <br>```yum repolist enabled | grep "mysql.*-community.*"```<br><br>
 ## Instal·lar MySQL
 Instal·lar
-<br>```yum install mysql-community-server```<br><br>
+<br>```yum install mysql-community-server```<br>
 ![Image of Yaktocat](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/Captura%20de%20pantalla%202020-10-05%20174927.png)
