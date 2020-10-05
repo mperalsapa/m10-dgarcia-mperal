@@ -22,3 +22,5 @@ Instal·lar
 ![Instal·lant](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/Captura%20de%20pantalla%202020-10-05%20174927.png)
 Comprovem la versio instal·lada<br>
 ![Comprovacio](https://i.imgur.com/bnqtVen.png)
+I que esta donant servei<br>
+![Status de MySQL](https://i.imgur.com/fd40eUe.png)
