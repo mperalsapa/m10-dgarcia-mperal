@@ -11,7 +11,18 @@ Actualitzem el OS
 ```sudo yum check-update```
 ```sudo yum update```
 
-# Percona MySQL
+# Percona for MySQL
+## Instal·lar repositori Percona
+Instal·lem el repositori amb ```sudo yum install https://repo.percona.com/yum/percona-release-latest.noarch.rpm```<br>
+Habilitem el repositori ```sudo percona-release setup ps80```
+## Instal·lar el servei
+Executem ```sudo yum install percona-server-server``` per instal·lar.
+## Comprovacions
+Comprovem que el servei esta funcionant
+![status percona](https://i.imgur.com/CqukLNy.png)<br>
+Comprovem que es pot accedir al mysql
+
+# MySQL
 ## Instal·lar repositori MySQL
 Descarregar el repositori <br>```wget https://repo.mysql.com/mysql80-community-release-el7-1.noarch.rpm```<br><br>
 Instal·lar el repositori <br>```yum localinstall mysql80-community-release-el7-1.noarch.rpm```<br><br>
@@ -36,5 +47,3 @@ Una vegada coneixem aquesta password, començem amb el proces de securitzacio am
 Accedim al servei per comprvar que funciona correctament.<br>
 ![Comprovacio access mysql](https://i.imgur.com/wGJPvDx.png)<br>
 P@t@t@m10
-
-## Instal·lar mysql
