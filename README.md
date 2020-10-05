@@ -15,7 +15,9 @@ https://www.percona.com/doc/percona-server/LATEST/installation/yum_repo.html
 
 # Securitzar Instal·lacio
 Canviem la contrasenya
-```sudo passwd root```
+```sudo passwd root```<br>
 Actualitzem el OS
 ```sudo yum check-update```
-```sudo yum update``` <br>
+```sudo yum update```
+
+# Instal·lar MySQL PERCONA
