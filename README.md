@@ -44,6 +44,14 @@ Els fitxers de dades es troben a ```/var/lib/mysql```, aixo ho indica en el fitx
 
 - El servei de MySQL (mysqld) escolta al port 3306. Quina modificació/passos caldrien fer per canviar aquest port a 33306 per exemple? 
 Important: No realitzis els canvis. Només indica els passos que faries.
+Hauriem de modificar el fitxer ```/etc/my.cnf``` i afegir les seguents linies<br>
+```[client]
+port = 33456
+
+[mysqld]
+port = 33456
+```
+
 - nsenya al professor que us podeu connectar al SGBD.
 
 ![error de autenticacio](https://i.imgur.com/7I8sMmu.png)
