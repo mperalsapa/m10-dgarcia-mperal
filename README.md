@@ -31,6 +31,22 @@ Comprovem que el servei esta funcionant
 Comprovem que es pot accedir al mysql<br>
 ![accedit al mysql](https://i.imgur.com/0JZ38fC.png)
 
+RESPON O COMPROVA ELS SEGÜENTS APARTATS
+
+- Un cop realitzada la instal·lació realitza una securització de la mateixa. Quin programa realitza aquesta tasca? Realitza una securització de la instal·lació indicant que la contrasenya de root sigui patata.
+- Quines són les instruccions per arrancar / verificar status / apagar servei de la base de dades de Percona Server en el CentOS 7
+- A on es troba i quin nom rep el fitxer de configuració del SGBD Percona Server?
+- A on es troben físicament els fitxers de dades (per defecte). Com ho has sabut?
+- Crea un usuari anomenat asix en el sistema operatiu i en SGBD de tal manera que aquest usuari del sistema operatiu no hagi d'introduir l'usuari i password cada vegada que cridem al client mysql?
+		http://dev.mysql.com/doc/refman/5.7/en/password-security-user.html
+		Usuari SO-→ asix / patata
+		Usuari MySQL → asix / patata
+
+- El servei de MySQL (mysqld) escolta al port 3306. Quina modificació/passos caldrien fer per canviar aquest port a 33306 per exemple? 
+Important: No realitzis els canvis. Només indica els passos que faries.
+- nsenya al professor que us podeu connectar al SGBD.
+
+
 # MySQL
 ## Instal·lar repositori MySQL
 Descarregar el repositori <br>```wget https://repo.mysql.com/mysql80-community-release-el7-1.noarch.rpm```<br><br>
