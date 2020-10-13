@@ -46,6 +46,7 @@ Els fitxers de dades es troben a ```/var/lib/mysql```, aixo ho indica en el fitx
 Important: No realitzis els canvis. Només indica els passos que faries.
 - nsenya al professor que us podeu connectar al SGBD.
 
+![error de autenticacio](https://i.imgur.com/7I8sMmu.png)
 
 # MySQL
 ## Instal·lar repositori MySQL
