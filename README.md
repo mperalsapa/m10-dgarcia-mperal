@@ -34,7 +34,7 @@ Comprovem que es pot accedir al mysql<br>
 RESPON O COMPROVA ELS SEGÜENTS APARTATS
 
 - Un cop realitzada la instal·lació realitza una securització de la mateixa. Quin programa realitza aquesta tasca? Realitza una securització de la instal·lació indicant que la contrasenya de root sigui patata.
-- Quines són les instruccions per arrancar / verificar status / apagar servei de la base de dades de Percona Server en el CentOS 7
+- Quines són les instruccions per arrancar / verificar status / apagar servei de la base de dades de Percona Server en el CentOS 7 ```systemctl [ status | start | stop ] mysql```
 - A on es troba i quin nom rep el fitxer de configuració del SGBD Percona Server?
 - A on es troben físicament els fitxers de dades (per defecte). Com ho has sabut?
 - Crea un usuari anomenat asix en el sistema operatiu i en SGBD de tal manera que aquest usuari del sistema operatiu no hagi d'introduir l'usuari i password cada vegada que cridem al client mysql?
