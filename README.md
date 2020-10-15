@@ -64,10 +64,10 @@ farem servir la seguent comanda
 ```create user 'usuariPatata' identified by 'P@t@t@m10';```
 
 Creat l'usuari hem de canviar-li la password ja que ha expirat.
-Fem login com aquest usuari i executem aquesta instruccio
+Fem login com aquest usuari i executem aquesta instruccio<br>
 ```set password='P@tataM10';```
 
-Ara donarem permisos a aquest usuari per modificar qualsevol base de dades desde qualsevol IP. Aixo no s'hauria de fer mai, pero estem en un entorn de proves, i ens fara el treball mes fàcil.
+Ara donarem permisos a aquest usuari per modificar qualsevol base de dades desde qualsevol IP. Aixo no s'hauria de fer mai, pero estem en un entorn de proves, i ens fara el treball mes fàcil.<br>
 ```GRANT ALL PRIVILEGES ON * . * TO 'usuariPatata'@'%';```
 
 - Ensenya al professor que us podeu connectar al SGBD.
