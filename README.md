@@ -52,12 +52,23 @@ port = 33456
 [mysqld]
 port = 33456
 ```
-
-A l'hora de connectar-se des de l'exterior, ens diu que no tenim permís.
-![error de autenticacio](https://i.imgur.com/7I8sMmu.png)<br>
 Per poder connectar-nos des de l'exterior hem d'obrir el firewall amb el port de MySQL.
 ```sudo firewall-cmd --zone=public --add-service=mysql```
 
+A l'hora de connectar-se des de l'exterior, ens diu que no tenim permís.
+![error de autenticacio](https://i.imgur.com/7I8sMmu.png)<br>
+
+Per poder accedir des de una xarxa externa hem de afegir un usuari amb permisos de
+connexio externa
+farem servir la seguent comanda
+```create user 'usuariPatata' identified by 'P@t@t@m10' password expire;```
+
+Creat l'usuari hem de canviar-li la password ja que ha expirat.
+Fem login com aquest usuari i executem aquesta instruccio
+```set password='P@tataM10';```
+
+Ara donarem permisos a aquest usuari per modificar qualsevol base de dades desde qualsevol IP. Aixo no s'hauria de fer mai, pero estem en un entorn de proves, i ens fara el treball mes fàcil.
+```GRANT ALL PRIVILEGES ON * . * TO 'root'@'%';```
 
 - Ensenya al professor que us podeu connectar al SGBD.
 
@@ -83,17 +94,7 @@ I que esta donant servei ```systemctl status mysql```<br>
 ![Status de MySQL](https://i.imgur.com/fd40eUe.png)<br><br>
 
 # WIP PERCONA
-Per poder accedir des de una xarxa externa hem de afegir un usuari amb permisos de
-connexio externa
-farem servir la seguent comanda
-```create user 'usuariPatata' identified by 'P@t@t@m10' password expire;```
 
-Creat l'usuari hem de canviar-li la password ja que ha expirat.
-Fem login com aquest usuari i executem aquesta instruccio
-```set password='P@tataM10';```
-
-Ara donarem permisos a aquest usuari per modificar qualsevol base de dades desde qualsevol IP. Aixo no s'hauria de fer mai, pero estem en un entorn de proves, i ens fara el treball mes fàcil.
-```GRANT ALL PRIVILEGES ON * . * TO 'root'@'%';```
 
 
 P@t@t@m10
