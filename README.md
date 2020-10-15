@@ -79,4 +79,15 @@ Comprovem la versio instal·lada ```mysql --version```<br>
 ![Comprovacio](https://i.imgur.com/bnqtVen.png)<br>
 I que esta donant servei ```systemctl status mysql```<br>
 ![Status de MySQL](https://i.imgur.com/fd40eUe.png)<br><br>
+
+# WIP PERCONA
+per poder accedir des de una xarxa externa hem de afegir un usuari amb permisos de
+connexio externa
+farem servir la seguent comanda
+```create user 'usuariPatata' identified by 'P@t@t@m10' password expire;```
+
+creat l'usuari hem de canviar-li la password ja que ha expirat.
+Fem login com aquest usuari i executem aquesta instruccio
+```set password='P@tataM10';```
+
 P@t@t@m10
