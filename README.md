@@ -90,4 +90,6 @@ creat l'usuari hem de canviar-li la password ja que ha expirat.
 Fem login com aquest usuari i executem aquesta instruccio
 ```set password='P@tataM10';```
 
+```GRANT ALL PRIVILEGES ON * . * TO 'root'@'%';```
+
 P@t@t@m10
