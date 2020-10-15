@@ -53,7 +53,7 @@ port = 33456
 port = 33456
 ```
 Per poder connectar-nos des de l'exterior hem d'obrir el firewall amb el port de MySQL.<br>
-```sudo firewall-cmd --zone=public --add-service=mysql```
+```sudo firewall-cmd --zone=public --add-service=mysql --permanent```
 
 A l'hora de connectar-se des de l'exterior, ens diu que no tenim permís.
 ![error de autenticacio](https://i.imgur.com/7I8sMmu.png)<br>
