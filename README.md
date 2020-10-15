@@ -52,7 +52,7 @@ port = 33456
 [mysqld]
 port = 33456
 ```
-Per poder connectar-nos des de l'exterior hem d'obrir el firewall amb el port de MySQL.
+Per poder connectar-nos des de l'exterior hem d'obrir el firewall amb el port de MySQL.<br>
 ```sudo firewall-cmd --zone=public --add-service=mysql```
 
 A l'hora de connectar-se des de l'exterior, ens diu que no tenim permís.
