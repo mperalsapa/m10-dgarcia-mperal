@@ -55,7 +55,9 @@ port = 33456
 
 A l'hora de connectar-se des de l'exterior, ens diu que no tenim permís.
 ![error de autenticacio](https://i.imgur.com/7I8sMmu.png)<br>
-Per solucionar aixo hem de ...
+Per poder connectar-nos des de l'exterior hem d'obrir el firewall amb el port de MySQL.
+```sudo firewall-cmd --zone=public --add-service=mysql```
+
 
 - Ensenya al professor que us podeu connectar al SGBD.
 
@@ -93,7 +95,5 @@ Fem login com aquest usuari i executem aquesta instruccio
 Ara donarem permisos a aquest usuari per modificar qualsevol base de dades desde qualsevol IP. Aixo no s'hauria de fer mai, pero estem en un entorn de proves, i ens fara el treball mes fàcil.
 ```GRANT ALL PRIVILEGES ON * . * TO 'root'@'%';```
 
-Per ultim obrim el firewall per poder accedir al port des de l'exterior.
-```sudo firewall-cmd --zone=public --add-service=mysql```
 
 P@t@t@m10
