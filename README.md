@@ -14,4 +14,4 @@ Actualitzem el OS
 [Instal·lacio de percona](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/PERCONA.md)
 
 # MySQL
-[Instal·lacio de percona](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/MySQL.md)
+[Instal·lacio de MySQL](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/MySQL.md)
