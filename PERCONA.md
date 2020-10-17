@@ -19,18 +19,18 @@ Comprovem que el servei esta funcionant
 Comprovem que es pot accedir al mysql<br>
 ![accedit al mysql](https://i.imgur.com/0JZ38fC.png)
 
-- Quines són les instruccions per arrancar / verificar status / apagar servei de la base de dades de Percona Server en el CentOS 7<br>
+### Quines són les instruccions per arrancar / verificar status / apagar servei de la base de dades de Percona Server en el CentOS 7<br>
 ```systemctl [ status | start | stop ] mysql```
-- A on es troba i quin nom rep el fitxer de configuració del SGBD Percona Server?<br>
+### A on es troba i quin nom rep el fitxer de configuració del SGBD Percona Server?<br>
 Es troba a ```/etc``` i el fitxer es ```my.conf```
-- A on es troben físicament els fitxers de dades (per defecte). Com ho has sabut?<br>
+### A on es troben físicament els fitxers de dades (per defecte). Com ho has sabut?<br>
 Els fitxers de dades es troben a ```/var/lib/mysql```, aixo ho indica en el fitxer de configuracio.
-- Crea un usuari anomenat asix en el sistema operatiu i en SGBD de tal manera que aquest usuari del sistema operatiu no hagi d'introduir l'usuari i password cada vegada que cridem al client mysql?
+### Crea un usuari anomenat asix en el sistema operatiu i en SGBD de tal manera que aquest usuari del sistema operatiu no hagi d'introduir l'usuari i password cada vegada que cridem al client mysql?
 		http://dev.mysql.com/doc/refman/5.7/en/password-security-user.html
 		Usuari SO-→ asix / patata
 		Usuari MySQL → asix / patata
 
-- El servei de MySQL (mysqld) escolta al port 3306. Quina modificació/passos caldrien fer per canviar aquest port a 33306 per exemple? 
+### El servei de MySQL (mysqld) escolta al port 3306. Quina modificació/passos caldrien fer per canviar aquest port a 33306 per exemple? 
 Important: No realitzis els canvis. Només indica els passos que faries.
 Hauriem de modificar el fitxer ```/etc/my.cnf``` i afegir les seguents linies<br>
 ```
