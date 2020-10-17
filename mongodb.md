@@ -30,3 +30,14 @@ Afegirem la seguent linia en aquest fitxer ```/etc/mongod.conf```
 ```
 security:
         authorization: 'enabled'```
+I per accedir des de fora, hem de modificar la direccio del servei, de 127.0.0.1 a 0.0.0.0
+```
+net:
+    port: 27017
+    bindIp: 0.0.0.0   #default value is 127.0.0.1
+```
+I reiniciem el servei per carregar els canvis a la configuracio
+```systemctl restart mongod```
+
+Una vegada fet lo anterior ja podem accedir a traves de xarxa.
+![mongodb compass](https://i.imgur.com/QO0oGrF.png)
