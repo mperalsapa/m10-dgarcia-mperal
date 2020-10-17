@@ -53,11 +53,3 @@ connexio externa farem servir la seguent comanda
 
 Ara donarem permisos a aquest usuari per modificar qualsevol base de dades desde qualsevol IP. Aixo no s'hauria de fer mai, pero estem en un entorn de proves, i ens fara el treball mes fàcil.<br>
 ```GRANT ALL PRIVILEGES ON * . * TO 'usuariPatata'@'%';```
-
-- Ensenya al professor que us podeu connectar al SGBD.
-
-# WIP PERCONA
-
-
-
-P@t@t@m10
