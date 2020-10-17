@@ -9,7 +9,7 @@ Instal·lar
 ![Instal·lant](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/Captura%20de%20pantalla%202020-10-05%20174927.png)
 
 ## Securitzar
-[Securitzar](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/README.md#securitzar) la instal·lacio MySQL
+[Securitzar](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/PERCONA.md#securitzar) la instal·lacio MySQL
 
 ## Comprovacions
 Accedim al servei per comprvar que funciona correctament.<br>
