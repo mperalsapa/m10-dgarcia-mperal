@@ -19,3 +19,14 @@ Per iniciar el servei executem ```sudo systemctl start mongod```<br>
 Si l'anterior comanda no ha funcionat, executa aquesta avans ```sudo systemctl daemon-reload```<br
 Verificarem que el servei esta funcionant amb ```sudo systemctl status mongod```
 ![verificacio del process](https://i.imgur.com/xQtsehW.png)
+## Obrir el firewall
+Per poder accedir al servei hem de configurar el firewall del sistema per permetre conexions a la base de dades.
+```
+sudo firewall-cmd --zone=public --add-port=27017/tcp --permanent
+sudo firewall-cmd --reload
+```
+## Securitzar
+Afegirem la seguent linia en aquest fitxer ```/etc/mongod.conf```
+```
+secure:
+        authorization: 'enabled'```
