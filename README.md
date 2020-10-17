@@ -15,3 +15,7 @@ Actualitzem el OS
 
 # MySQL
 [Instal·lacio de MySQL](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/MySQL.md)
+
+# mongodb
+[Instal·lacio de mongodb](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/mongodb.md)
+
