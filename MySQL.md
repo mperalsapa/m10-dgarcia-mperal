@@ -35,7 +35,7 @@ port = 33456
 ```
 
 -	Un cop finalitzada la instal·lació i veure que funciona, mostra el resultat de la comanda:<br>
-```ps -ef | grep mysql```
+```ps -ef | grep mysql```<br>
 ![visualitzacio del process](https://i.imgur.com/2yIJhlc.png)
 
 -	Quines són les característiques principals que ofereix MySQL 8.0 enfront de la 5.7.
