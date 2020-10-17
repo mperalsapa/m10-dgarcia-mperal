@@ -13,3 +13,9 @@ gpgkey=https://www.mongodb.org/static/pgp/server-4.4.asc
 ### Instal·lar el paquet
 Instal·larem amb ```sudo yum install -y mongodb-org```<br>
 ![Instal·lacio de paquet completada](https://i.imgur.com/4fBkd9m.png)
+
+## Iniciar i comprobar el servei
+Per iniciar el servei executem ```sudo systemctl start mongod```<br>
+Si l'anterior comanda no ha funcionat, executa aquesta avans ```sudo systemctl daemon-reload```<br
+Verificarem que el servei esta funcionant amb ```sudo systemctl status mongod```
+![verificacio del process](https://i.imgur.com/xQtsehW.png)
