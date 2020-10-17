@@ -38,5 +38,7 @@ port = 33456
 ```ps -ef | grep mysql```<br>
 ![visualitzacio del process](https://i.imgur.com/2yIJhlc.png)
 
--	Quines són les característiques principals que ofereix MySQL 8.0 enfront de la 5.7.
+-	Quines són les característiques principals que ofereix MySQL 8.0 enfront de la 5.7.<br>
+
+-- Rols: característica molt emocionant que permet crear rols al servidor MySQL i assignar-los privilegis específics. Aquests rols es poden assignar als usuaris. Per tant, a partir d’ara no haureu de recordar quins permisos necessita un programador de l’equip X i si un QA de l’equip Y necessita el privilegi Z<br>
 -	Ensenya al professor que us podeu connectar al SGBD.
