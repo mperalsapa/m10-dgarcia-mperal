@@ -28,5 +28,5 @@ sudo firewall-cmd --reload
 ## Securitzar
 Afegirem la seguent linia en aquest fitxer ```/etc/mongod.conf```
 ```
-secure:
+security:
         authorization: 'enabled'```
