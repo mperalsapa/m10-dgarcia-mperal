@@ -59,7 +59,7 @@ Una vegada fet lo anterior ja podem accedir a traves de xarxa.
 
 ## Connectar amb la base de dades
 Per connectar hem de fer servir el programari de mongo. Oficialment es pot fer amb comandes o amb un programa grafic.<br>
-Ens descarregarem el programa grafic des de aquest ![enllaç](https://www.mongodb.com/try/download/compass)<br>
+Ens descarregarem el programa grafic des de aquest [enllaç](https://www.mongodb.com/try/download/compass)<br>
 Una vegada instal·lat en l'apartat de "New connection" fem clic a "Fill in connection fields individually"<br>
 I aqui afegim les dades de la connexio al servidor, com la ip, el port, i el usuari amb la contrasenya.
 ![credencials](https://i.imgur.com/gKOjuHb.png)
