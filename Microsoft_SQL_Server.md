@@ -12,7 +12,7 @@ Elegim la versió gratuïta "Developer".<br>
 ![clau](https://i.imgur.com/oiumk4F.png)<br><br>
 Aquí s'instal·len les regles de forma automàtica.<br>
 ![regles](https://i.imgur.com/4Egk6x7.png)<br><br>
-Seleccionem només el motor de base de dades<br>
+Seleccionem només el motor de base de dades.<br>
 ![caracteristiques](https://i.imgur.com/2SibyMW.png)<br><br>
 Elegim una contrasenya per l'administrador de SQL Server i l'usuari que desitjem. En aquest cas, l'usuari de Windows Server.<br>
 ![usuari](https://i.imgur.com/ElK0EKO.png)<br><br>
