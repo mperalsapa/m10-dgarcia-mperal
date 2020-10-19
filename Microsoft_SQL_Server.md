@@ -9,3 +9,6 @@ Executem l'instal·lació del SQL Server<br>
 En l'instal·lador seleccionem "Nueva instalación de SQL Server"<br>
 ![nueva instalacion](https://i.imgur.com/vjNLvng.png)<br>
 
+https://i.imgur.com/oiumk4F.png
+
+https://i.imgur.com/4Egk6x7.png
