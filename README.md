@@ -1,7 +1,8 @@
 # m10-dgarcia-mperal
-Pràctiques m10
+Pràctiques m10 ASIX 2
+David Garcia Gamisans
+Marc Peral Cajidos
 
-https://guides.github.com/features/mastering-markdown/
 
 # Securitzar Instal·lació
 Canviem la contrasenya
