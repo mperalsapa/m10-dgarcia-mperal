@@ -8,8 +8,8 @@ Instal·lar
 <br>```yum install mysql-community-server```<br>
 ![Instal·lant](https://i.imgur.com/3hh51xU.png)
 
-## Securitzar
-[Securitzar](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/PERCONA.md#securitzar) la instal·lacio MySQL
+## Protegir
+[Protegir](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/PERCONA.md#securitzar) la instal·lacio MySQL
 
 ## Comprovacions
 Accedim al servei per comprvar que funciona correctament.<br>
