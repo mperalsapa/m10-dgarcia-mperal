@@ -11,3 +11,5 @@ En l'instal·lador seleccionem "Nueva instalación de SQL Server"<br>
 
 ![clau](https://i.imgur.com/oiumk4F.png)<br>
 ![clau](https://i.imgur.com/4Egk6x7.png)<br>
+
+https://i.imgur.com/2SibyMW.png
