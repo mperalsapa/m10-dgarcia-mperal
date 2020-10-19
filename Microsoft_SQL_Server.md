@@ -17,4 +17,6 @@ Seleccionem només el motor de base de dades.<br>
 Elegim una contrasenya per l'administrador de SQL Server i l'usuari que desitjem. En aquest cas, l'usuari de Windows Server.<br>
 ![usuari](https://i.imgur.com/ElK0EKO.png)<br><br>
 Aquí ja tenim la instal·lació iniciant.<br>
-![instalacio](https://i.imgur.com/b7bYqgh.png)<br>
+![instalacio](https://i.imgur.com/b7bYqgh.png)<br><br>
+La instal·lació ha finalitzat correctament.<br>
+![finalitzacio](https://i.imgur.com/EkQkk04.png)<br>
