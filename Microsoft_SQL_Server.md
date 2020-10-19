@@ -15,6 +15,6 @@ Aquí s'instal·len les regles de forma automàtica
 Seleccionem només el motor de base de dades<br>
 ![caracteristiques](https://i.imgur.com/2SibyMW.png)<br>
 Elegim una contrasenya per l'administrador de SQL Server i l'usuari que desitjem. En aquest cas, l'usuari de Windows Server.<br>
-![usuari](https://i.imgur.com/ElK0EKO.png)<br>
+![usuari](https://i.imgur.com/ElK0EKO.png)<br><br>
 Aquí ja tenim la instal·lació iniciant.<br>
 ![instalacio](https://i.imgur.com/b7bYqgh.png)<br>
