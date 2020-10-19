@@ -8,9 +8,9 @@ Executem l'instal·lació del SQL Server<br>
 ![executable](https://i.imgur.com/0Bp3wiB.png)<br>
 En l'instal·lador seleccionem "Nueva instalación de SQL Server"<br>
 ![nueva instalacion](https://i.imgur.com/vjNLvng.png)<br>
-Elegim la versió gratuïta "Developer"
+Elegim la versió gratuïta "Developer"<br>
 ![clau](https://i.imgur.com/oiumk4F.png)<br>
 Aquí s'instal·len les regles de forma automàtica
 ![regles](https://i.imgur.com/4Egk6x7.png)<br>
-Seleccionem només el motor de base de dades
+Seleccionem només el motor de base de dades<br>
 ![caracteristiques](https://i.imgur.com/2SibyMW.png)<br>
