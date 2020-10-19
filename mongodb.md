@@ -32,7 +32,7 @@ Crearem un usuari admin accedint a la base de dades des del servidor.
 Executem la comanda '''mongo''' i desprès seleccionem la base "admin" amb '''use admin;'''.
 
 Ara inserim el nou usuari
-'''
+```
 db.createUser({
 user: "admin",
 pwd: "Patata",
@@ -42,7 +42,7 @@ roles: [
 { role: "dbAdminAnyDatabase", db: "admin" }
 ]
 });
-'''
+```
 Afegirem la seguent linia en aquest fitxer '''/etc/mongod.conf'''
 '''
 security:
