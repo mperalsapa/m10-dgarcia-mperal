@@ -15,9 +15,9 @@ Instal·larem amb ```sudo yum install -y mongodb-org```<br>
 ![Instal·lacio de paquet completada](https://i.imgur.com/4fBkd9m.png)
 
 ## Iniciar i comprovar el servei
-Per iniciar el servei executem '''sudo systemctl start mongod'''
-Si l'anterior comanda no ha funcionat, executa aquesta abans '''sudo systemctl daemon-reload'''<br
-Verificarem que el servei està funcionant amb '''sudo systemctl status mongod'''
+Per iniciar el servei executem ```sudo systemctl start mongod```
+Si l'anterior comanda no ha funcionat, executa aquesta abans ```sudo systemctl daemon-reload```<br>
+Verificarem que el servei està funcionant amb ```sudo systemctl status mongod```
 ![verificació del procés](https://i.imgur.com/xQtsehW.png)
 
 ## Obrir el firewall
@@ -29,7 +29,7 @@ sudo firewall-cmd --reload
 ## Protegir
 Crearem un usuari admin accedint a la base de dades des del servidor.
 
-Executem la comanda '''mongo''' i desprès seleccionem la base "admin" amb '''use admin;'''.
+Executem la comanda ```mongo``` i desprès seleccionem la base "admin" amb ```use admin```
 
 Ara inserim el nou usuari
 ```
@@ -43,19 +43,19 @@ roles: [
 ]
 });
 ```
-Afegirem la seguent linia en aquest fitxer '''/etc/mongod.conf'''
-'''
+Afegirem la seguent linia en aquest fitxer ```etc/mongod.conf```
+```
 security:
 authorization: 'enabled'
-'''
+```
 I per accedir des de fora, hem de modificar la direcció del servei, de 127.0.0.1 a 0.0.0.0
-'''
+```
 net:
 port: 27017
 bindIp: 0.0.0.0 #default value is 127.0.0.1
-'''
+```
 I reiniciem el servei per carregar els canvis a la configuració
-'''systemctl restart mongod'''
+```systemctl restart mongod```
 
 Una vegada fet lo anterior ja podem accedir a traves de xarxa.
 ![mongodb compass](https://i.imgur.com/QO0oGrF.png)
