@@ -6,17 +6,17 @@ Habilitem el repositori ```sudo percona-release setup ps80```
 Executem ```sudo yum install percona-server-server``` per instal·lar.
 
 ## Protegir 
-Ara toca protegir la instal·lacio de mysql<br>
+Ara toca protegir la instal·lació de MySQL<br>
 En el moment en el que instal·lem el MySQL, ens genera una contrasenya i la guarda en un fitxer.<br>
 Aquesta la podem trobar amb ```grep 'temporary password' /var/log/mysqld.log```<br>
-Una vegada coneixem aquesta password, començem amb el proces de sectorització amb ```mysql_secure_installation```<br>
+Una vegada coneixem aquesta password, començem amb el procés de sectorització amb ```mysql_secure_installation```<br>
 ![sectorització](https://i.imgur.com/Sdrn8rO.png)<br>
 ![sectorització segona part](https://i.imgur.com/jPNA19Q.png)<br>
 
 ## Comprovacions
-Comprovem que el servei esta funcionant
+Comprovem que el servei està funcionant
 ![status percona](https://i.imgur.com/CqukLNy.png)<br>
-Comprovem que es pot accedir al mysql<br>
+Comprovem que es pot accedir al MySQL<br>
 ![accedit al mysql](https://i.imgur.com/0JZ38fC.png)
 
 ### Quines són les instruccions per arrancar / verificar status / apagar servei de la base de dades de Percona Server en el CentOS 7<br>
@@ -32,7 +32,7 @@ Els fitxers de dades es troben a ```/var/lib/mysql```, aixo ho indica en el fitx
 
 ### El servei de MySQL (mysqld) escolta al port 3306. Quina modificació/passos caldrien fer per canviar aquest port a 33306 per exemple? 
 Important: No realitzis els canvis. Només indica els passos que faries.
-Hauriem de modificar el fitxer ```/etc/my.cnf``` i afegir les seguents linies<br>
+Hauriem de modificar el fitxer ```/etc/my.cnf``` i afegir les seguents línies<br>
 ```
 [client]
 port = 33456
@@ -47,9 +47,9 @@ A l'hora de connectar-se des de l'exterior, ens diu que no tenim permís.
 ![error de autenticacio](https://i.imgur.com/7I8sMmu.png)<br>
 
 Per poder accedir des de una xarxa externa hem de afegir un usuari amb permisos de
-connexio externa farem servir la seguent comanda
+connexió externa farem servir la següent comanda
 ```create user 'usuariPatata' identified by 'P@t@t@m10';```
 
 
-Ara donarem permisos a aquest usuari per modificar qualsevol base de dades desde qualsevol IP. Aixo no s'hauria de fer mai, pero estem en un entorn de proves, i ens fara el treball mes fàcil.<br>
+Ara donarem permisos a aquest usuari per modificar qualsevol base de dades desde qualsevol IP. Això no s'hauria de fer mai, pero estem en un entorn de proves, i ens farà el treball mes fàcil.<br>
 ```GRANT ALL PRIVILEGES ON * . * TO 'usuariPatata'@'%';```
