@@ -9,14 +9,14 @@ Instal·lar
 ![Instal·lant](https://i.imgur.com/3hh51xU.png)
 
 ## Protegir
-[Protegir](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/PERCONA.md#securitzar) la instal·lacio MySQL
+[Protegir](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/PERCONA.md#securitzar) la instal·lació MySQL
 
 ## Comprovacions
 Accedim al servei per comprvar que funciona correctament.<br>
 ![Comprovacio access mysql](https://i.imgur.com/wGJPvDx.png)<br>
-Comprovem la versio instal·lada ```mysql --version```<br>
+Comprovem la versió instal·lada ```mysql --version```<br>
 ![Comprovacio](https://i.imgur.com/bnqtVen.png)<br>
-I que esta donant servei ```systemctl status mysql```<br>
+I que està donant servei ```systemctl status mysql```<br>
 ![Status de MySQL](https://i.imgur.com/fd40eUe.png)<br><br>
 
 ###	A on es troben físicament els fitxers de dades?
@@ -25,7 +25,7 @@ Els fitxers de dades es troben a ```/var/lib/mysql```
 Es troba a ```/etc/my.cnf```
 
 ###	El procés de mysqld escolta al port 3306. Quina modificació/passos caldrien fer per canviar aquest port a 33306 per exemple? Important: No realitzis els canvis. Només indica els passos que faries.
-Hauriem de modificar el fitxer ```/etc/my.cnf``` i afegir les seguents linies<br>
+Hauriem de modificar el fitxer ```/etc/my.cnf``` i afegir les seguents línies<br>
 ```
 [client]
 port = 33456
