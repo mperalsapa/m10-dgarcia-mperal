@@ -20,4 +20,4 @@ Actualitzem el OS
 [Instal·lacio de mongodb](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/mongodb.md)
 
 # Microsoft SQL Server
-https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/Microsoft_SQL_Server.md
+[Instal3lacio de SQL Server](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/Microsoft_SQL_Server.md)
