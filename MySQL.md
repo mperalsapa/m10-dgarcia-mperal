@@ -6,7 +6,7 @@ Verifiquem que s’ha afegit correctament <br>```yum repolist enabled | grep "my
 ## Instal·lar MySQL
 Instal·lar
 <br>```yum install mysql-community-server```<br>
-![Instal·lant](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/Captura%20de%20pantalla%202020-10-05%20174927.png)
+![Instal·lant](https://i.imgur.com/3hh51xU.png)
 
 ## Securitzar
 [Securitzar](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/PERCONA.md#securitzar) la instal·lacio MySQL
