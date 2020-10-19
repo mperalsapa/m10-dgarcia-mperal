@@ -4,7 +4,7 @@ David Garcia Gamisans
 Marc Peral Cajidos
 
 
-# Securitzar Instal·lació
+# Protegir Instal·lació
 Canviem la contrasenya
 ```sudo passwd root```<br>
 Actualitzem el OS
