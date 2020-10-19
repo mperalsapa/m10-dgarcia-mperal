@@ -11,13 +11,13 @@ Actualitzem el OS
 ```sudo yum update```
 
 # PERCONA
-[Instal·lacio de percona](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/PERCONA.md)
+[Instal·lació de percona](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/PERCONA.md)
 
 # MySQL
-[Instal·lacio de MySQL](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/MySQL.md)
+[Instal·lació de MySQL](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/MySQL.md)
 
 # mongodb
-[Instal·lacio de mongodb](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/mongodb.md)
+[Instal·lació de mongodb](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/mongodb.md)
 
 # Microsoft SQL Server
-[Instal3lacio de SQL Server](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/Microsoft_SQL_Server.md)
+[Instal·lació de SQL Server](https://github.com/mperalsapa/m10-dgarcia-mperal/blob/master/Microsoft_SQL_Server.md)
