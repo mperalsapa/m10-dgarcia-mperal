@@ -20,3 +20,4 @@ Aquí ja tenim la instal·lació iniciant.<br>
 ![instalacio](https://i.imgur.com/b7bYqgh.png)<br><br>
 La instal·lació ha finalitzat correctament.<br>
 ![finalitzacio](https://i.imgur.com/EkQkk04.png)<br>
+# NO COMPLETAT
